@@ -1,0 +1,78 @@
+#hjkl
+{
+	font-family: 'Square Peg', cursive;
+	font-style: initial;
+}
+
+#label
+{
+	font-family: 'Cute Font', cursive;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+#indet
+{
+	font-family: 'Cute Font', cursive;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+#sketch_drawn
+{
+	color: rgb(255, 234, 0);
+	font-size: 30px;
+	font-family: 'Grape Nuts', cursive;
+}
+
+#hii
+{
+	font-family: 'Whisper', cursive;
+	float: left;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#timer
+{
+	font-family: 'Whisper', cursive;
+	float: right;
+	font-weight: bold;
+	font-size: 40px;
+}
+ 
+.dev
+{
+	font-family: 'Shadows Into Light', cursive;
+	background-color:lime;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 25px;
+	text-align: center;
+	padding-bottom: 0px;
+	letter-spacing: 1px;
+	margin-top: 3px;
+}
+
+canvas
+{
+	border: 3px double white !important;
+	border-radius: 10px;
+	margin-top: 100px;
+	animation-duration: 2s;
+	animation-name: example;
+	animation-iteration-count: infinite;
+	margin-bottom: 10px;
+}
+@keyframes example {
+	from{box-shadow:2px 1px 40px rgb(85, 248, 4);}
+	to{box-shadow:2px 1px 40px rgb(0, 225, 255);}
+}
+
+/*all fonts
+font-family: 'Poppins', sans-serif;
+font-family: 'Cute Font', cursive;
+font-family: 'Whisper', cursive;
+font-family: 'Square Peg', cursive;
+font-family: 'Grape Nuts', cursive;
+all end*/
